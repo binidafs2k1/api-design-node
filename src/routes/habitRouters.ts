@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { validateBody, validateParam } from '../middleware/validation.ts'
+import { validateBody, validateParam } from '../middleware/validation.js'
 import { z } from 'zod'
 
 const createHabitSchema = z.object({

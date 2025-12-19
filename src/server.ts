@@ -1,11 +1,11 @@
 import express from 'express'
-import authRoutes from './routes/authRouters.ts'
-import habitRouters from './routes/habitRouters.ts'
-import userRouters from './routes/userRouters.ts'
+import authRoutes from './routes/authRouters.js'
+import habitRouters from './routes/habitRouters.js'
+import userRouters from './routes/userRouters.js'
 import cors from 'cors'
 import morgan from 'morgan'
 import helmet from 'helmet'
-import { isTest } from './env.ts'
+import { isTest } from './env.js'
 
 const app = express()
 app.use(

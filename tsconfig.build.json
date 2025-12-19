@@ -6,6 +6,6 @@
     "rootDir": "src",
     "sourceMap": true
   },
-  "include": ["src/**/*.ts", "*/env.ts"],
+  "include": ["src/**/*.ts"],
   "exclude": ["**/*.test.ts", "**/*.spec.ts", "node_modules"]
 }
