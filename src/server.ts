@@ -5,7 +5,7 @@ import userRouters from './routes/userRouters.ts'
 import cors from 'cors'
 import morgan from 'morgan'
 import helmet from 'helmet'
-import { isTest } from '../env.ts'
+import { isTest } from './env.ts'
 
 const app = express()
 app.use(
