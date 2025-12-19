@@ -19,4 +19,3 @@ router.delete('/:id', (req, res) => {
 })
 
 export default router
-export { router }
